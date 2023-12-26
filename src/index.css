@@ -11,3 +11,127 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+  padding: 25px;
+ 
+}
+a.nav-link {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  margin-left: 70px;
+}
+div#navbarText\ nav {
+  margin-left: 120px;
+}
+button.btn.btn-primary {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+span.span {
+  margin-right: 10px;
+}
+.one {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  position: relative;
+}
+.one::before {
+  content: ''; /* Required for the pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Move the pseudo-element behind the main element */
+  background-color: rgb(42, 42, 146);
+}
+.navss {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.left {
+  max-width: 500px;
+}
+.left h2 {
+  font-size: 45px;
+  line-height: 68px;
+  font-weight: 700;
+  color: white;
+}
+.description p {
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+}
+.left button {
+  background: darkorange;
+  border: none;
+  color: whitw;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 31px;
+}
+
+.carousel-control-prev-icon {
+ 
+  /* border: 5px solid black !important;
+  padding: 22px !important;
+  border-radius: 50% !important; */
+}
+
+img.card-img-top {
+  width: 100px;
+  /* padding: 15px; */
+  margin: 31px;
+}
+h1.contact {
+  color: #112d58;
+  font-family: "Poppins",sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  font-size: 50px;
+}
+.card.border-success.mb-3.max-width {
+  padding: 41px;
+  max-width: 40rem;
+}
+.a {
+  display: flex;
+}
+.text {
+  margin-left: 31px;
+}
+.text h3{
+
+   /* color: #000;
+    font-family: "Poppins",sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0; */
+}
+img.img-fluid.rounded-top.c {
+  width: 40px;
+}
+img.card-im {
+  width: 100%;
+  height: 443px;
+}
+form {
+  max-width: 50rem;
+  margin: auto;
+}
+h1.contact.us {
+  text-align: center;
+}
+
